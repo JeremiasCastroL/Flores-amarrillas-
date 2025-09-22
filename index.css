@@ -7,6 +7,7 @@
     width: 100vw;
       color:#ffd600; /* amarillo */
     height: 100vh;
+    transition: all 0.5s ease; /* all = todas las propiedades cambiantes */
 }
 
 .cont-letras div {
@@ -28,6 +29,7 @@
 
 .dedicatoria {
     position: absolute;
+    transition: all 0.5s ease; /* all = todas las propiedades cambiantes */
     bottom: 20px;
     left: 20px;
     font-size: 15px;
